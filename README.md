@@ -1,6 +1,6 @@
 # Backend Express.js API with TypeScript, Firebase, and CORS
 
-This is a backend API built with **Express.js**, **TypeScript**, and **Firebase Admin SDK**. The API is designed to manage user data using **Firebase Firestore** as the database. The backend is also configured with **CORS** to allow cross-origin requests from a frontend such as **Next.js**.
+This is a backend API built with **Express.js**, **TypeScript**, and **Firebase Admin SDK**. The API is designed to manage user data using **Firebase Firestore** as the database.  The backend is also configured with **CORS** to allow cross-origin requests from a frontend such as **Next.js**.
 
 ## Features
 
