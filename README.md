@@ -156,16 +156,3 @@ backend-repo/
 
 This project is licensed under the MIT License.
 ```
-
-### **Penjelasan README.md**:
-
-1. **Features**: Menjelaskan fitur utama dari project.
-2. **Prerequisites**: Menjelaskan software yang harus diinstal sebelum memulai project.
-3. **Getting Started**: Menjelaskan cara clone, install dependencies, dan mengonfigurasi Firebase Admin SDK.
-4. **Run the Server**: Menjelaskan cara menjalankan server baik dengan **nodemon** atau **npm start**.
-5. **API Endpoints**: Menjelaskan endpoint yang tersedia beserta metode HTTP dan contoh body request.
-6. **Project Structure**: Memberikan gambaran tentang struktur file project.
-7. **Dependencies**: Daftar dependensi utama yang digunakan.
-8. **License**: Lisensi project (bisa diubah sesuai kebutuhan).
-
-README ini memberikan penjelasan yang jelas kepada pengembang lain tentang cara menggunakan dan mengonfigurasi project backend ini. Dengan langkah-langkah yang jelas, project dapat di-clone, diatur, dan dijalankan dengan lancar.
