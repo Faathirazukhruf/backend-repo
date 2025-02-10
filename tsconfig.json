@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          // Menentukan versi ECMAScript (ES6)
+    "module": "commonjs",                     // Menggunakan sistem modul CommonJS (untuk Node.js)
+    "strict": true,                           // Mengaktifkan mode strict TypeScript
+    "esModuleInterop": true,                  // Mengaktifkan interoperabilitas dengan modul ECMAScript
+    "skipLibCheck": true,                     // Mengabaikan pengecekan tipe library di dalam node_modules
+    "forceConsistentCasingInFileNames": true, // Memastikan case sensitivity pada nama file
+    "outDir": "./dist",                       // Direktori output hasil kompilasi
+    "rootDir": "./",                          // Root direktori dari source code
+    "resolveJsonModule": true,                // Mengizinkan impor file JSON
+    "moduleResolution": "node",               // Resolusi modul mengikuti format Node.js
+    "typeRoots": ["./types", "./node_modules/@types"] // Mengarahkan ke folder tipe kustom dan node_modules
+  },
+  "include": [
+    "src/**/*",                               // Hanya sertakan file TypeScript dalam folder 'src'
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",                           // Kecualikan folder node_modules
+    "**/*.test.ts",                           // Kecualikan file test TypeScript jika ada
+    "dist"                                    // Kecualikan folder output hasil kompilasi
+  ]
+}
